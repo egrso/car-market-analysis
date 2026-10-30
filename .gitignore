@@ -1,0 +1,32 @@
+# Исходные данные
+/all_regions.csv
+/data/raw/
+
+# Промежуточные данные
+*.parquet
+*.pkl
+*.pickle
+*.feather
+*.duckdb
+*.db
+
+# Логи
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Окружение
+.env
+
+# ОС / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
