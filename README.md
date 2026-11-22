@@ -41,24 +41,4 @@
 | Python, Jupyter Notebook | Запись и выполнения ячеек |
 | DuckDB, SQL | Чтение CSV, типизация, проверки и агрегирование |
 | pandas | Представление результатов в таблицах |
-| Parquet, Zstandard | Хранение типизированных данных со сжатием |
-
-## Структура проекта
-
-```text
-car-market-analysis/
-├── README.md
-├── notebooks/
-│   └── 01_data_loading.ipynb
-├── docs/
-│   └── cleaning_log.md
-├── data/
-│   ├── city.csv
-│   ├── raw/                  # исходный CSV, локально
-│   ├── processed/            # Parquet, локально
-│   ├── sample/               # папка для будущей выборки
-│   └── aggregated/           # папка для будущих агрегатов
-├── sql/                      # папка для SQL-файлов следующих этапов
-├── reports/figures/          # папка для графиков
-└── dashboard/                # папка для итогового дашборда
-```
+| Parquet | Хранение типизированных данных со сжатием |
